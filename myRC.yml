@@ -8,12 +8,12 @@ spec:
     app: rishijavaaap
   template:
     metadata:
-      labels: rishijavaaap
-        app: myapp
+      labels: 
+        app: rishijavaaap
     spec:
       containers:
-        - name: myapp
+      - name: myapp
           image: nginx
           ports:
-            - containerPort: 80
+          - containerPort: 80
 
