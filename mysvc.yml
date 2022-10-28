@@ -7,9 +7,9 @@ metadata:
     version: 2.6.1
 spec:
   type: NodePort
-  port:
-  - ports: 8080
-  nodeport: 30001 
+  ports:
+  - port: 8080
+  nodePort: 30001 
   protocol: TCP
 selector:
   app: rishijavaaap
