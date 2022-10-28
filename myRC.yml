@@ -15,5 +15,5 @@ spec:
       - name: myapp
         image: maha4iac/mahalogin:1
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 
