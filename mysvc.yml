@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: my-svc
+  labels: 
+    app: rishijavaaap
+spec:
+  type: NodePort
+  port:
+  - ports: 8080
+  trotocol: TCP
+selector:
+  app: rishijavaaap
