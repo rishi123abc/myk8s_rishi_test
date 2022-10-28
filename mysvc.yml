@@ -4,6 +4,7 @@ metadata:
   name: my-svc
   labels: 
     app: rishijavaaap
+    version: 2.6.1
 spec:
   type: NodePort
   port:
@@ -11,3 +12,4 @@ spec:
   trotocol: TCP
 selector:
   app: rishijavaaap
+  version: 2.6.1
